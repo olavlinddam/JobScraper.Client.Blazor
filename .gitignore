@@ -1,0 +1,13 @@
+
+# IDE
+.idea/
+
+# Visual Studio / .NET
+*.suo
+*.user
+.vs/
+[Bb]in/
+[Oo]bj/
+*UpgradeReport*Files/
+[Pp]ackages/
+*.DotSettings.user

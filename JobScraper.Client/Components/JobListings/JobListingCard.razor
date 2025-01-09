@@ -1,0 +1,11 @@
+@using JobScraper.Client.DTOs
+
+
+<h3>JobListingCard</h3>
+<p>@JobListing.Title</p>
+<p>@JobListing.Description</p>
+
+@code {
+    [Parameter]
+    public required JobListingDto JobListing { get; set; }
+}
